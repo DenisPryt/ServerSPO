@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0435726C1C1DB0A300CC1E18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0435726B1C1DB0A300CC1E18 /* main.cpp */; };
+		043572841C1DB15B00CC1E18 /* DataBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0435727D1C1DB15A00CC1E18 /* DataBuffer.cpp */; };
+		043572851C1DB15B00CC1E18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0435727F1C1DB15A00CC1E18 /* main.cpp */; };
+		043572861C1DB15B00CC1E18 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043572801C1DB15A00CC1E18 /* Server.cpp */; };
+		043572871C1DB15B00CC1E18 /* SocketHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043572821C1DB15A00CC1E18 /* SocketHelper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		043572681C1DB0A300CC1E18 /* Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Server; sourceTree = BUILT_PRODUCTS_DIR; };
-		0435726B1C1DB0A300CC1E18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0435727D1C1DB15A00CC1E18 /* DataBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataBuffer.cpp; sourceTree = "<group>"; };
+		0435727E1C1DB15A00CC1E18 /* DataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBuffer.h; sourceTree = "<group>"; };
+		0435727F1C1DB15A00CC1E18 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		043572801C1DB15A00CC1E18 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		043572811C1DB15A00CC1E18 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		043572821C1DB15A00CC1E18 /* SocketHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketHelper.cpp; sourceTree = "<group>"; };
+		043572831C1DB15A00CC1E18 /* SocketHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		0435726A1C1DB0A300CC1E18 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				0435726B1C1DB0A300CC1E18 /* main.cpp */,
+				0435727D1C1DB15A00CC1E18 /* DataBuffer.cpp */,
+				0435727E1C1DB15A00CC1E18 /* DataBuffer.h */,
+				0435727F1C1DB15A00CC1E18 /* main.cpp */,
+				043572801C1DB15A00CC1E18 /* Server.cpp */,
+				043572811C1DB15A00CC1E18 /* Server.h */,
+				043572821C1DB15A00CC1E18 /* SocketHelper.cpp */,
+				043572831C1DB15A00CC1E18 /* SocketHelper.h */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0435726C1C1DB0A300CC1E18 /* main.cpp in Sources */,
+				043572851C1DB15B00CC1E18 /* main.cpp in Sources */,
+				043572861C1DB15B00CC1E18 /* Server.cpp in Sources */,
+				043572871C1DB15B00CC1E18 /* SocketHelper.cpp in Sources */,
+				043572841C1DB15B00CC1E18 /* DataBuffer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
