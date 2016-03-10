@@ -39,10 +39,6 @@ const char * DataBuffer::start() const
 
 char * DataBuffer::pop( size_t size )
 {
-  if ( size > this->size() ){
-    int a = 0;
-    a += 3;
-  }
   char * resPtr = m_buffer.data() + index(0);
   m_start += size;
   return resPtr;

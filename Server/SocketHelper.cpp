@@ -47,8 +47,6 @@ bool SocketHelper::closeSockDesc( SockDesc socket )
 
 SockDesc SocketHelper::createTcpServerSocket(const char *hostName, const char* port, int qlen)
 {
-  SockDesc socketDescriptor = 0 ;
-
   struct addrinfo *res = NULL;
   struct addrinfo hints = { 0 };
 
